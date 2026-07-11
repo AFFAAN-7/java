@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: checkout github repository
-        uses: action/checkout@v4
+        uses: actions/checkout@v7.0.0
 
       - name: setup java repository
         uses: actions/setup-java@v5.5.0
